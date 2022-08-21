@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root {
+    --verde: #0c443a;
+    --limon: #25d1b2;
+    --degradado:linear-gradient(90deg, var(--limon,)var(--verde));
+
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: o;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+*::selection{
+    background: var(--limon);
+    color: white;
+}
+
+html{
+    font-size: 62.4%;
+    
+}
+
+body{
+    background: white;
+
+}
+
+section {
+    min-height: 100vh;
+    padding: o 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+.heading{
+    text-align: center;
+    background:	#3FB2BF;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 35px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+
+
+
+header .navbar a{
+    font-size: 18px;
+    margin-left: 2rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+header .navbar a:hover{
+    color: #08b9ff;
+}
+
+header input{
+    display: none;
+}
+
+header label{
+    font-size: 3rem;
+    color: var(--verde);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+
+ 
+
+
+
+
+
+/* Index */
+
+#nuestros-programas{
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container{
+    padding: 72px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#nuestros-programas .programas{
+    display: flex;
+    justify-content: center;
+}
+
+#nuestros-programas p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#nuestros-programas h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#nuestros-programas h3{
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+#nuestros-programas .carta{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: #bdeaf9;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+    font-size: 13px;
+}
+
+.Precio{
+   text-align: center;
+   font-weight: bold;
+   color: #000000;
+   font-size: 20px;
+}
+
+
+
+/* Nosotros */
+
+.nosotros{
+    background-color: #008cff;
+    padding-top: 130px;
+    padding-bottom: 61px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+#somos-proya .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#somos-proya .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#somos-proya h2{
+    margin-top: 0px;
+}
+
+#somos-proya .img-container{
+    
+    text-align: left;
+    
+
+}
+
+#nuestros-programas .programas{
+    display: flex;
+    justify-content: center;
+}
+
+#nuestros-programas p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#nuestros-programas h2{
+    font-size: 4em;
+}
+
+#nuestros-programas h3{
+    margin-top: 0;
+}
+
+
+
+
+#caracteristicas .container{
+    text-align: initial;
+}
+
+.mision{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.misionTex{
+    font-size:16px;
+    padding-right: 35px;
+    
+}
+
+.vision{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 180px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.visionTex{
+    font-size:16px;
+    padding-left: 35px;
+    
+    
+}
+
+#somos-proya .img-container2{
+    
+    text-align: right;
+    padding-top: 122px;
+
+}
+
+#somos-proya .img-container3{
+    
+    text-align: left;
+    padding-top: 80px;
+
+}
+
+.valores{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.valoresTex{
+    font-size:16px;
+    padding-left: 35px;
+    
+    
+}
+
+/* Contacto */
+
+.contacto{   
+    padding-top: 30px;   
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.direccionText{
+    font-size: 17px;
+
+}
+
+.titulo{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#somos-proya .img-container4{
+    
+    text-align: left;
+
+
+}
+
+.emoji{
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer{
+    background: #000000;
+    padding-bottom: 0.1px;
+
+}
+
+
+
+.footer-content{
+    display: flex;    
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-left: 256px;
+
+}
+
+.social-media{
+    padding-left: 125px;
+}
+
+.contact-us{
+   
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 50%;
+    text-align: center;
+    color: #bdeaf9;
+
+
+}
+
+
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #bdeaf9;
+    margin-bottom: 60px;
+
+}
+
+@media (min-width: 450px){
+
+    .header{
+        display: block;
+        width: 100%;
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+   
+}
+
+/* Sidebar */
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;left: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+/*Fin de Menù lateral*/
+
+
+
